@@ -1,0 +1,22 @@
+{
+  "name": "foresight-spec",
+  "version": "1.0.0",
+  "description": "Foresight Project File Format Specification",
+  "main": "index.js",
+  "scripts": {
+    "generate": "typescript-json-schema tsconfig.json Foresight --out foresight-schema.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnomeontherun/foresight-spec.git"
+  },
+  "author": "Jeremy Wilken <gnomation@gnomeontherun.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gnomeontherun/foresight-spec/issues"
+  },
+  "homepage": "https://github.com/gnomeontherun/foresight-spec#readme",
+  "dependencies": {
+    "typescript-json-schema": "^0.55.0"
+  }
+}
